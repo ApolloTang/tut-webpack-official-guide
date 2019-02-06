@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "scripts": {
+    "start": "webpack --verbose",
+    "analyse": "webpack --profile --json > stats.json"
+  },
+  "devDependencies": {
+    "webpack-bundle-analyzer": "^3.0.3"
+  }
+}
